@@ -13,7 +13,7 @@ const db = {
                     let list
                     try {
                         list = JSON.parse(data)
-                    } catch (error2) {
+                     } catch (error2) {
                         list = []
                     }
                     resolve(list)
